@@ -41,6 +41,6 @@ add_bm_time_four = time.time()
 score = ((add_bm_time_one - start_time) +
         (add_bm_time_two - add_bm_time_one) +
         (add_bm_time_three - add_bm_time_two) +
-         (add_bm_time_four - add_bm_time_three) / 4)
+        (add_bm_time_four - add_bm_time_three) / 4)
 
 print("Final Score: {}".format(score))
