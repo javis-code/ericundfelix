@@ -6,7 +6,7 @@ Antwort = input("Ihre Antwort hier: ")
 
 blau = ["blau"]
 gelb = ["gelb"]
-rot = ["Rot"]
+rot = ["rot"]
 grün = ["Grün"]
 
 if Antwort.lower().strip() in blau:
