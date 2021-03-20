@@ -15,8 +15,14 @@ class FirstGUI:
         self.close_button = Button(master, text="Close", command=master.quit)
         self.close_button.pack()
 
+        self.yeet_button = Button(master, text="Yeeeeeeet", command=self.yeet)
+        self.yeet_button.pack()
+
     def greet(self):
         print("Greetings!")
+
+    def yeet(self):
+        print("Yeet")
 
 
 root = Tk()
