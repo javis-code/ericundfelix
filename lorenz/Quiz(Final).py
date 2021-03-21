@@ -1,6 +1,7 @@
 a = 0
 
 ##########Frage 1##########
+
 while True:
     print(" ")
     print("Frage 1")
@@ -90,6 +91,7 @@ while True:
         print("Bitte überprüfen sie Ihre eingabe und versuchen es nochmal!")
 
 ##########Frage 4##########
+
 while True:
     print(" ")
     print("Frage 4")
