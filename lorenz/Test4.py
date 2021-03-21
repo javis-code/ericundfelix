@@ -1,72 +1,136 @@
 a = 0
 
 ##########Frage 1##########
+while True:
+    print(" ")
+    print("Frage 1")
+    print(" ")
 
-print("Welche Farbe haben Bananen?")
-List_1 = ["Blau", "Grün", "Gelb", "Rot"]
-for item in List_1:
-    print(item)
-Antwort = input("Ihre Antwort hier: ")
+    print("Welche Farbe haben Bananen?")
+    List_1 = ["(A) Blau", "(B) Grün", "(C) Gelb", "(D) Rot"]
+    for item in List_1:
+        print(item)
+    Antwort = input("Ihre Antwort hier (A, B, C oder D): ")
 
-if Antwort.lower().strip() == "blau":
-    a+=0
-elif Antwort.lower().strip() == "gelb":
-    a+=1
-elif Antwort.lower().strip() == "grün":
-    a+=0
-elif Antwort.lower().strip() == "rot":
-    a+=0
-else:
-    print("Bitte überprüfen sie Ihre eingabe!")
+    if Antwort.lower().strip() == "a":
+        a+=0
+        break
+    elif Antwort.lower().strip() == "b":
+        a+=0
+        break
+    elif Antwort.lower().strip() == "c":
+        a+=1
+        break
+    elif Antwort.lower().strip() == "d":
+        a+=0
+        break
+    else:
+        print("")
+        print("Bitte überprüfen sie Ihre eingabe und versuchen es nochmal!")
+        
+
+    
 
 ##########Frage 2##########
 
-print("Wie heiß ist die Sonnenoberfläche?")
-List_2 = ["1600°C","6000°C","24000°C","100000°C"]
-for item in List_2:
-    print(item)
-Antwort_2 = input("Ihre Antwort hier (Nur in Zahlen angeben zB 1000): ")
+while True:
+    print(" ")
+    print("Frage 2")
+    print(" ")
 
-if Antwort_2.lower().strip() == "1600":
-    a+=0
-elif Antwort_2.lower().strip() == "6000":
-    a+=1
-elif Antwort_2.lower().strip() == "24000":
-    a+=0
-elif Antwort_2.lower().strip() == "100000":
-    a+=0
-else:
-    print("Bitte überprüfen sie Ihre eingabe!")
+    print("Wie heiß ist die Sonnenoberfläche?")
+    List_2 = ["(A) 1.600°C","(B) 6.000°C","(C) 24.000°C","(D) 100.000°C"]
+    for item in List_2:
+        print(item)
+    Antwort_2 = input("Ihre Antwort hier (A, B, C oder D): ")
+
+    if Antwort_2.lower().strip() == "a":
+        a+=0
+        break
+    elif Antwort_2.lower().strip() == "b":
+        a+=1
+        break
+    elif Antwort_2.lower().strip() == "c":
+        a+=0
+        break
+    elif Antwort_2.lower().strip() == "d":
+        a+=0
+        break
+    else:
+        print("")
+        print("Bitte überprüfen sie Ihre eingabe und versuchen es nochmal!")
 
 ##########Frage 3##########
 
-print("Wie hoch ist der Mount Everest?")
-List_3 = ["8849 Meter","8953 Meter","8603 Meter","7973 Meter"]
-for item in List_3:
-    print(item)
-Antwort_3 = input("Ihre Antwort hier (Nur in Zahlen angeben zB 1000): ")
+while True:
+    print(" ")
+    print("Frage 3")
+    print(" ")
 
-if Antwort_3.lower().strip() == "8849":
-    a+=1
-elif Antwort_3.lower().strip() == "8953":
-    a+=0
-elif Antwort_3.lower().strip() == "8603":
-    a+=0
-elif Antwort_3.lower().strip() == "7973":
-    a+=0
-else:
-    print("Bitte überprüfen sie Ihre eingabe!")
+    print("Wie hoch ist der Mount Everest?")
+    List_3 = ["(A) 8849 Meter","(B) 8953 Meter","(C) 8603 Meter","(D) 7973 Meter"]
+    for item in List_3:
+        print(item)
+    Antwort_3 = input("Ihre Antwort hier (A, B, C oder D): ")
+
+    if Antwort_3.lower().strip() == "a":
+        a+=1
+        break
+    elif Antwort_3.lower().strip() == "b":
+        a+=0
+        break
+    elif Antwort_3.lower().strip() == "c":
+        a+=0
+        break
+    elif Antwort_3.lower().strip() == "d":
+        a+=0
+        break
+    else:
+        print("")
+        print("Bitte überprüfen sie Ihre eingabe und versuchen es nochmal!")
 
 ##########Frage 4##########
+while True:
+    print(" ")
+    print("Frage 4")
+    print(" ")
 
-print("")
+    print("Wie viele Kubikkilometer Wasser sind im Pazifik?(Gerundet")
+    List_4 = ["(A) 600 Millionen km³","(B) 700 Millionen km³","(C) 800 Millionen km³","(D) 900 Millionen km³"]
+    for item in List_4:
+        print(item)
+    Antwort_4 = input("Ihre Antwort hier (A, B, C oder D): ")
+
+    if Antwort_4.lower().strip() == "a":
+        a+=0
+        break
+    elif Antwort_4.lower().strip() == "b":
+        a+=1
+        break
+    elif Antwort_4.lower().strip() == "c":
+        a+=0
+        break
+    elif Antwort_4.lower().strip() == "d":
+        a+=0
+        break
+    else:
+        print("")
+        print("Bitte überprüfen sie Ihre eingabe und versuchen es nochmal!")
+
 ##########Ergebnis##########
 
-if a > 1:
-    print("Glückwunsch! Sie haben 2 von 2 Fragen richtig beantwortet!")
-elif 2 > a > 0  :
-    print("Fürs erste nicht schlecht. Sie haben 1 von 2 Fragen richtig beantwortet!")
-elif a < 1:
-    print("Sie haben 0 von 2 Fragen richtig beantwortet. Probieren sie es doch nochmal!")
+print(" ")
+print("Ihr Ergebnis")
+print(" ")
+if a == 4:
+    print("Glückwunsch! Sie haben 4 von 4 Fragen richtig beantwortet!")
+elif a == 3:
+    print("Das war eine gute Leistung. Sie haben 3 von 4 Fragen richtig beantwortet!")
+elif a == 2  :
+    print("Fürs erste nicht schlecht. Sie haben 2 von 4 Fragen richtig beantwortet!")
+elif a == 1:
+    print("Sie haben 1 von 4 Fragen richtig beantwortet. Probieren sie es doch nochmal!")
+elif a ==0:
+    print("Es ist noch kein Meister vom Himmel gefallen. Sie haben 0 von 4 Fragen richtig beantwortet. Wenn sie ein bisschen lernen schaffen sie es beim nächsten mal bestimmt Besser!")
 else:
     print("Ups... Es ist ein Fehler aufgetreten!")
