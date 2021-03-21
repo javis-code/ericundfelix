@@ -29,9 +29,6 @@ while True:
         print("")
         print("Bitte überprüfen sie Ihre eingabe und versuchen es nochmal!")
         
-
-    
-
 ##########Frage 2##########
 
 while True:
