@@ -130,7 +130,7 @@ elif a == 2  :
     print("Fürs erste nicht schlecht. Sie haben 2 von 4 Fragen richtig beantwortet!")
 elif a == 1:
     print("Sie haben 1 von 4 Fragen richtig beantwortet. Probieren sie es doch nochmal!")
-elif a ==0:
+elif a == 0:
     print("Es ist noch kein Meister vom Himmel gefallen. Sie haben 0 von 4 Fragen richtig beantwortet. Wenn sie ein bisschen lernen schaffen sie es beim nächsten mal bestimmt Besser!")
 else:
     print("Ups... Es ist ein Fehler aufgetreten!")
